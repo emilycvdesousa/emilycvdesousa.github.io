@@ -1,5 +1,6 @@
 <script lang="ts">
   import Image from '../../Components/Image/Image.svelte';
+  import IntroPic from '../../../assets/images/Intro.webp';
 </script>
 
 <div id="about-me">
@@ -25,7 +26,7 @@
       </span>
     </p>
   </div>
-  <Image src="Images/Intro.webp" alt="An another head-shot of Emily" />
+  <Image src={IntroPic} alt="An another head-shot of Emily" />
 </div>
 
 <style>

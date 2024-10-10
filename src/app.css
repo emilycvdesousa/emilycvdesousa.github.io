@@ -110,22 +110,22 @@
     font-family: 'RocaOne';
     font-style: normal;
     font-weight: 900;
-    src: url('Fonts/RocaOne-Bold.woff') format('woff'),
-      url('Fonts/RocaOne-Bold.woff2') format('woff2');
+    src: url('assets/fonts/RocaOne-Bold.woff') format('woff'),
+      url('assets/fonts/RocaOne-Bold.woff2') format('woff2');
   }
 
   @font-face {
     font-family: 'InriaBold';
     font-style: bold;
     font-weight: 500;
-    src: url('Fonts/InriaSerif-Bold.woff');
+    src: url('assets/fonts/InriaSerif-Bold.woff');
   }
 
   @font-face {
     font-family: 'Glacial';
     font-style: normal;
     font-weight: 500;
-    src: url('Fonts/GlacialIndifference-Regular.woff');
+    src: url('assets/fonts/GlacialIndifference-Regular.woff');
   }
 }
 

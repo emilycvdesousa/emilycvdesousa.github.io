@@ -1,10 +1,12 @@
 <script lang="ts">
   import Link from '../../Components/Link/Link.svelte';
   import Image from '../../Components/Image/Image.svelte';
+  import Headshot from '../../../assets/images/Headshot.webp';
+  import BrandLogo from '../../../assets/images/Brand-Logo.webp';
 </script>
 
 <div id="intro">
-  <Image src="Images/Headshot.webp" alt="A head-shot of Emily" />
+  <Image src={Headshot} alt="A head-shot of Emily" />
   <div id="name-card">
     <div>
       <h1 id="name" class="primary">Emily C. Desousa</h1>
@@ -12,16 +14,12 @@
     </div>
     <img
       class="logo"
-      src="Images/Brand-Logo.webp"
+      src={BrandLogo}
       alt="Emily C. Desousa - Collaborative Pianist & Vocalist"
     />
     <div id="main-links">
-      <Link style="outline" variant="document">
-        Resume
-      </Link>
-      <Link variant="email">
-        Email me
-      </Link>
+      <Link style="outline" variant="document">Resume</Link>
+      <Link variant="email">Email me</Link>
     </div>
   </div>
 </div>

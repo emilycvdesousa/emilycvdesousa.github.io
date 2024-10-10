@@ -1,8 +1,12 @@
+<script lang="ts">
+  import BrandLogo from '../../../assets/images/Brand-Logo.webp';
+</script>
+
 <div id="info">
   <div class="header">
     <img
       class="logo"
-      src="Images/Brand-Logo.webp"
+      src={BrandLogo}
       alt="Emily C. Desousa - Collaborative Pianist & Vocalist"
     />
     <div class="header-text">

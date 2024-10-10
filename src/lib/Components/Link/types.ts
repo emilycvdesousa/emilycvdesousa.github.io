@@ -32,7 +32,7 @@ export const linkArgs: { [variant: string]: LinkArg } = {
     title: 'Youtube',
   },
   document: {
-    href: 'Docs/E-Desousa-Resume.pdf',
+    href: 'docs/E-Desousa-Resume.pdf',
     title: 'Resume',
   },
   email: {

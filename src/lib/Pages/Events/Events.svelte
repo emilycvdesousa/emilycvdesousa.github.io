@@ -1,5 +1,6 @@
 <script lang="ts">
   import Image from '../../Components/Image/Image.svelte';
+  import WeddingShow from '../../../assets/images/Wedding-Show.webp';
 </script>
 
 <div id="events">
@@ -38,7 +39,7 @@
       </span>
     </p>
 
-    <Image src="Images/Wedding-Show.webp" alt="Emily performing" />
+    <Image src={WeddingShow} alt="Emily performing" />
   </div>
 </div>
 
@@ -59,7 +60,7 @@
 
       @apply grid-cols-1;
       @apply lg:grid-cols-[auto_45%];
-      
+
       @apply grid-rows-[auto_min-content];
       @apply lg:grid-rows-1;
 

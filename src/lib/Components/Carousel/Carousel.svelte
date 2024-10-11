@@ -101,7 +101,7 @@
 <div class="carousel" on:wheel={throttleScroll} bind:this={carouselElement}>
   {#each pages as p}
     <Page {...p.pageProps}>
-      <svelte:component this={p.element} {...p.props} id="test" />
+      <svelte:component this={p.element} {...p.props} />
     </Page>
   {/each}
 

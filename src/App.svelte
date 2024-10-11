@@ -34,25 +34,7 @@
 </script>
 
 <main>
-  <Carousel {pages}>
-    <!-- Main intro page -->
-    <!-- <Page enforceScreenVh={true}>
-      <Intro />
-    </Page> -->
-    <!-- "I'm Emily" Page -->
-    <!-- <Page>
-      <AboutMe />
-    </Page>
-    <Page>
-      <Info />
-    </Page>
-    <Page>
-      <Events />
-    </Page>
-    <Page>
-      <Shows />
-    </Page> -->
-  </Carousel>
+  <Carousel {pages} />
   <Particles />
 </main>
 

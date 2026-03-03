@@ -11,7 +11,7 @@
       @apply xl:text-7xl;
 
       @apply text-center;
-      @apply font-[InriaBold];
+      @apply font-[Gloock];
       /* @apply text-nowrap; */
     }
     h2 {
@@ -19,14 +19,14 @@
       @apply sm:text-4xl;
       @apply lg:text-5xl;
       @apply xl:text-6xl;
-      @apply font-[InriaBold];
+      @apply font-[Gloock];
     }
     h3 {
       @apply text-lg;
       @apply sm:text-xl;
       @apply lg:text-2xl;
       @apply xl:text-3xl;
-      @apply font-[InriaBold];
+      @apply font-[Gloock];
     }
     h4 {
       @apply sm:text-lg;
@@ -45,8 +45,8 @@
 
     .logo {
       /* Ensure logo doesn't span too large on landscape mobile */
-      @apply max-w-[360px];
-      @apply lg:max-w-[500px];
+      @apply max-w-[260px];
+      @apply lg:max-w-[360px];
     }
 
     .primary {
@@ -107,18 +107,10 @@
   }
 
   @font-face {
-    font-family: 'RocaOne';
+    font-family: 'Gloock';
     font-style: normal;
-    font-weight: 900;
-    src: url('assets/fonts/RocaOne-Bold.woff') format('woff'),
-      url('assets/fonts/RocaOne-Bold.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: 'InriaBold';
-    font-style: bold;
     font-weight: 500;
-    src: url('assets/fonts/InriaSerif-Bold.woff');
+    src: url('assets/fonts/Gloock-Regular.woff');
   }
 
   @font-face {

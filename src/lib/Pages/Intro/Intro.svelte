@@ -10,12 +10,12 @@
   <div id="name-card">
     <div>
       <h1 id="name" class="primary">Emily C. Desousa</h1>
-      <h3 id="title" class="all-uppercase">Collaborative Pianist & Vocalist</h3>
+      <h3 id="title" class="all-uppercase">Collaborative Pianist & Vocal Coach</h3>
     </div>
     <img
       class="logo"
       src={BrandLogo}
-      alt="Emily C. Desousa - Collaborative Pianist & Vocalist"
+      alt="Emily C. Desousa - Collaborative Pianist & Vocal Coach"
     />
     <div id="main-links">
       <Link style="outline" variant="document">Resume</Link>

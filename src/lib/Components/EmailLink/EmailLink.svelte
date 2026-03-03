@@ -1,5 +1,5 @@
 <script lang="ts">
-  const email = 'ZW1pbHljdmRlc291c2FAZ21haWwuY29t';
+  const email = 'ZW1pbHlkZXNvdXNhbXVzaWNAZ21haWwuY29t';
   
   let className: string;
   export { className as class };

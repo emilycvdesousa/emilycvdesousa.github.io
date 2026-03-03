@@ -16,7 +16,7 @@ export const defaultArg: LinkArg = {
 
 export const linkArgs: { [variant: string]: LinkArg } = {
   instagram: {
-    href: 'https://www.instagram.com/emilycvdesousa',
+    href: 'https://www.instagram.com/emilydesousa.music',
     title: 'Instagram',
   },
   facebook: {
@@ -24,12 +24,8 @@ export const linkArgs: { [variant: string]: LinkArg } = {
     title: 'Facebook',
   },
   linkedin: {
-    href: 'https://www.linkedin.com/in/emilycvdesousa',
+    href: 'https://www.linkedin.com/in/emilydesousamusic',
     title: 'LinkedIn',
-  },
-  youtube: {
-    href: 'https://www.youtube.com/',
-    title: 'Youtube',
   },
   document: {
     href: 'docs/E-Desousa-Resume.pdf',

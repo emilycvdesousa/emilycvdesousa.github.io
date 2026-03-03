@@ -34,7 +34,7 @@ export default {
       },
       fontFamily: {
         serif: ['Glacial'],
-        Inria: ['InriaBold'],
+        Inria: ['Gloock'],
       },
     },
     screens: {

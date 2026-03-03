@@ -23,12 +23,12 @@
     {
       element: Info,
     },
-    {
-      element: Events,
-    },
-    {
-      element: Shows,
-    },
+    // {
+    //   element: Events,
+    // },
+    // {
+    //   element: Shows,
+    // },
     { element: Links },
   ];
 </script>

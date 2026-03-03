@@ -7,10 +7,10 @@
     <img
       class="logo"
       src={BrandLogo}
-      alt="Emily C. Desousa - Collaborative Pianist & Vocalist"
+      alt="Emily C. Desousa - Collaborative Pianist & Vocal Coach"
     />
     <div class="header-text">
-      <h2>Supporting <br />& Growing</h2>
+      <h2>coaching <br />& lessons</h2>
       <p class="subtext">
         A supporting, healing, and health-focused approach to accompanying and
         coaching. Supporting you so you can reach your fullest potential!
@@ -27,8 +27,8 @@
         an audition, or simply want to get some practice in with a live pianist?
         Contact me about setting up a coaching session!
       </p>
-      <br />
-      <p class="prices">Sessions start at $30+</p>
+      <!-- <br /> -->
+      <!-- <p class="prices">Sessions start at $30+</p> -->
     </div>
 
     <!-- Separator -->
@@ -41,9 +41,9 @@
         Need a live accompanist for a concert or audition? Click the inquiry
         button below to contact me about my availability!*
       </p>
-      <br />
-      <p class="prices">Prices range from $60 / HOUR</p>
-      <p class="note">*Available within 45 min drive of Rochester NY, 14609</p>
+      <!-- <br /> -->
+      <!-- <p class="prices">Prices range from $60 / HOUR</p> -->
+      <!-- <p class="note">*Available within 45 min drive of Rochester NY, 14609</p> -->
     </div>
 
     <!-- Separator -->
@@ -57,8 +57,8 @@
         or instrumental accompaniment-needs! Click the inquiry button below to
         contact me today.
       </p>
-      <br />
-      <p class="prices">Prices range from $20-$45</p>
+      <!-- <br /> -->
+      <!-- <p class="prices">Prices range from $20-$45</p> -->
     </div>
   </div>
 </div>
@@ -97,7 +97,7 @@
         @apply flex;
         @apply flex-col;
         @apply gap-4;
-        @apply md:max-w-min;
+        @apply md:max-w-[260px];
       }
     }
 

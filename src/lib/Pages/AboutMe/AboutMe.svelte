@@ -5,24 +5,30 @@
 
 <div id="about-me">
   <div>
-    <h1 class="primary">Hi! I'm <span>Emily</span></h1>
+    <h1 class="primary">about me</h1>
     <p class="medium">
       <span>
-        I am a Rochester-based collaborative pianist and vocalist hailing
-        originally from Syracuse, NY!
+        Hi, I'm Emily and I am a Rochester-based musician hailing originally
+        from Syracuse, NY! I am extremely grateful for the opportunities I had
+        growing up immersed in such a vibrant community of musicians and I am
+        thrilled that I can give back and help educate the next generation of
+        caring, thoughtful musicians!
       </span>
       <span>
-        As a proud Upstate NY-native, I grew up immersed in a rich music
-        community and am excited that I can give back my communities now! My
-        day-to-day life includes accompanying K-12 choirs, music directing for
-        local shows, and playing in pit orchestras around the area.
+        With over 21 years of piano study, I have specialized in collaboration
+        with vocalists and instrumentalists for the past 8 years. What makes my
+        approach to piano collaboration unique is that I am also a trained
+        vocalist and violist of over 10 years. Having experienced both "sides"
+        of the process, I am able to use my vocal and instrumental knowledge to
+        inform my piano playing and provide more effective coaching to those I
+        collaborate with.
       </span>
       <span>
-        With over 20 years of piano study, I have specialized in collaboration
-        with instrumentalists and vocalists for the past 8 years. Having also
-        studied voice for 10 years, I am equipped to coach vocalists with
-        various styles of music ranging from choral and classical to musical
-        theatre, jazz, and pop.
+        My day-to-day life includes being a staff accompanist for Pittsford
+        Schools choral programs, adjunct faculty member at Nazareth University,
+        and a pit musician/music director for local theater companies. I
+        currently reside in Bushnell's Basin with my husband, Kevin, and our 2
+        dogs and 3 cats!
       </span>
     </p>
   </div>
@@ -40,7 +46,8 @@
       @apply items-center;
 
       @apply lg:max-w-full;
-      @apply xl:max-w-min;
+      @apply lg:max-w-[600px];
+      /* @apply xl:max-w-min; */
 
       @apply gap-4;
       @apply lg:gap-8;
@@ -55,6 +62,7 @@
 
       & > p {
         @apply h-full;
+
         @apply text-center;
         @apply gap-8;
 

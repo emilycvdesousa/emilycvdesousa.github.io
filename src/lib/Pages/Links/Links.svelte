@@ -19,7 +19,6 @@
     <SocialBadge variant="facebook" />
     <SocialBadge variant="instagram" />
     <SocialBadge variant="linkedin" />
-    <SocialBadge variant="youtube" />
     <SocialBadge variant="email" />
   </div>
 </div>

@@ -22,14 +22,14 @@ export default {
           950: '#0d0347',
         },
         offblack: {
-          50: '#FAF2F0',
+          50: '#FBF8F2',
           300: '#8CA3A6',
           500: '#3e4e50',
         },
         goldish: {
           300: '#E4BFB4',
           400: '#D9A696',
-          500: '#cd8b76',
+          500: '#9FA985',
         },
       },
       fontFamily: {
